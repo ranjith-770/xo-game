@@ -1,0 +1,195 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #B4FF9F;
+}
+.name h1{
+    display: flex;
+    text-align: center;
+}
+.one{
+    padding: 150px 500px;
+}
+.one h1{
+    padding: 0px 130px;
+}
+.boxes{
+    background-color: darkseagreen;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    justify-content: space-around;
+    padding: 80px 70px;
+}
+
+
+.box1{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: #00E0BA;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+}
+.box2{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: #DD7BDF;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+}
+.box3{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: #00E0BA;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+}
+.box4{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: #DD7BDF;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+}
+.box5{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: #00E0BA;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+}
+.box6{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: #DD7BDF;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+}
+.box7{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: #00E0BA;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+}
+.box8{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: #DD7BDF;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+}
+.box9{
+    height: 70px;
+    width: 70px;
+    border: 2px solid black;
+    background-color: #DD7BDF;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 50px;
+}
+.btn{
+    padding: 20px 0px;
+
+}
+.btn button{
+
+    padding: 5px;
+    background-color:#F9C0AB;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+
+} */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#game{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    margin-top: 10px;
+}
+.head h1{
+    color: blue;
+}
+.cards{
+    display: grid;
+    grid-template: repeat(3, 1fr)/repeat(3,1fr);
+    margin-top: 30px;
+    border: 2px solid black;
+}
+.box{
+    padding: 50px 50px;
+}
+.x{
+    background-color: lightblue;
+    font-size: 50px;
+}
+.x:hover{
+    background-color: rgb(10, 183, 241);
+}
+.o{
+    background-color: lightgreen;
+    font-size: 50px;
+}
+.o:hover{
+    background-color: rgb(10, 238, 10);
+}
+.btn{
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+}
+.btn button{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.reset{
+    background-color: red;
+}
+.exit{
+    background-color: greenyellow;
+}
